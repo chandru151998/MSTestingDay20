@@ -1,10 +1,12 @@
-﻿namespace MoodAnalyzer
+﻿namespace GenericsMaximumProblem
 {
-    class Program
+    class ProgramUC1
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Welcome to Mood Analyzer problem");
+            MaximumInt max = new MaximumInt();
+            max.GetInput();
+            max.Compare();
         }
     }
 }
